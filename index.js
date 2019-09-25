@@ -35,8 +35,6 @@ io.on('connection', function(socket) {
         users.splice(index, 1);
         io.emit('logout', username);
     })
-
-    fg
 });
 
 
